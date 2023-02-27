@@ -27,6 +27,7 @@ pip install -r requirements.txt
 ```
 
 **Uso**
+
 Para utilizar o modelo de classificação de machine learning, basta executar o arquivo predict.py e passar os dados do voo como argumentos:
 
 ```python
@@ -36,7 +37,9 @@ python project.py --origin JFK --destination LAX --departure_time "2022-03-01 09
 O script retorna a probabilidade de o voo sofrer atrasos em minutos. É possível ajustar os parâmetros do modelo no arquivo config.py.
 
 **Contribuição**
+
 Sinta-se à vontade para contribuir com este projeto fazendo um fork e enviando pull requests. Todos os tipos de contribuição são bem-vindos, desde correções de bugs até novos recursos e algoritmos de machine learning.
 
 **Licença**
+
 Este projeto é licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais informações.
