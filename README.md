@@ -3,12 +3,15 @@
 Este projeto tem como objetivo criar um modelo de classificação de machine learning capaz de prever a probabilidade de um voo sofrer atrasos. O modelo é treinado com dados históricos de voos e pode ser usado por companhias aéreas e passageiros para se preparar melhor para a viagem e minimizar os impactos de atrasos.
 
 **Dados**
+
 Os dados usados para treinar o modelo são históricos de voos, incluindo informações sobre horários de partida e chegada, companhia aérea, aeroporto de origem e destino, duração do voo, número de passageiros e informações sobre o clima. Os dados foram coletados de fontes públicas e pré-processados antes do treinamento do modelo.
 
 **Modelo**
+
 O modelo de classificação de machine learning foi treinado com vários algoritmos, incluindo Árvore de Decisão, Naive Bayes, Regressão Logística e Random Forest. O modelo final escolhido foi o Random Forest, que obteve a melhor performance em termos de precisão e recall.
 
 **Requisitos**
+
 Este projeto requer as seguintes bibliotecas Python:
 
 - pandas
@@ -18,6 +21,7 @@ Este projeto requer as seguintes bibliotecas Python:
 Além disso, é necessário ter conhecimento em Python e machine learning para trabalhar com este projeto.
 
 **Instalação**
+
 Clone o repositório do projeto e instale as bibliotecas necessárias:
 
 ```python
